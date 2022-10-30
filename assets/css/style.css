@@ -31,7 +31,7 @@ body{
     display: grid;
     grid-template-columns:150px repeat(3, 1fr) ;
     margin: 30px auto;
-    grid-template-rows:100px 1fr  100px; /* fr fraccion autoajuste*/
+    grid-template-rows:100px 1fr  100px; /* fr fraccion*/
     grid-template-areas: 
     "header header header header"
     "aside products products products"
@@ -56,7 +56,6 @@ text-align: center;
 line-height: 100px;
 font-weight: bolder;
     
-
 }
 
 .card img{
@@ -117,10 +116,10 @@ h3{
     font-size: x-large;
 }
 
-button:hover{/*cambiar de color el boton al pasarel cursor*/
+button:hover{/*cambiar de color el boton al pasar el cursor*/
 background-color: var(--dark-gray);
 color: var(--white);
-cursor: pointer; /*para que el cursor se transforme en mano*/
+cursor: pointer; /*comando para que el cursor se transforme en mano o enlace*/
 }
 
 span1{
