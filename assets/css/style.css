@@ -114,10 +114,18 @@ flex-direction: column;
 h3{
     font-weight: bold;
     margin-bottom: 20px;
+    font-size: x-large;
 }
 
 button:hover{/*cambiar de color el boton al pasarel cursor*/
 background-color: var(--dark-gray);
 color: var(--white);
 cursor: pointer; /*para que el cursor se transforme en mano*/
+}
+
+span1{
+color:rgb(23, 189, 215); 
+font-weight: bold;
+font-size: large;
+font-family: 'Monoton', cursive;
 }
